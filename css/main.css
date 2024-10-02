@@ -1,0 +1,26 @@
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+#carrito {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+#resumen-compra {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #007bff;
+  display: none;
+}
